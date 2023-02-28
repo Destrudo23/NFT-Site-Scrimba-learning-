@@ -11,7 +11,6 @@ body {
 h1 {
   color: whitesmoke;
   font-size: 36px;
-  margin: 0;
 }
 
 h2 {
@@ -21,6 +20,9 @@ h2 {
 h3 {
   color: #d0aaff;
   font-size: 20px;
+}
+
+h1, h3 {
   margin: 0;
 }
 
@@ -31,36 +33,21 @@ a {
   text-decoration: underline dotted ;
 }
 
-a:hover {
-  color: #d4b44c;
-}
-
-a:active {
+a:hover, a:active {
   color: #d4b44c;
 }
 
 /* layout*/
 
-header {
+header, .second-section {
   background-color: #5f29a3;
-  padding: 45px 0px;
-}
-
-section {
-  padding: 45px 0px;
 }
 
 .second-section {
-  background-color: #5f29a3;
-}
-
-.container {
-  width: 620px;
-  margin: 0 auto;
-}
-
-.secondcontainer {
   color: whitesmoke;
+}
+
+.container, .secondcontainer {
   width: 620px;
   margin: 0 auto;
 }
@@ -68,6 +55,15 @@ section {
 .image-wrapper {
   display: flex;
   justify-content: space-between;
+}
+
+footer {
+  text-align: center;
+  color: #5f29a3;
+}
+
+header, section, footer {
+  padding: 45px 0px
 }
 
 /* images */
@@ -80,5 +76,3 @@ section {
   width: 300px;
   border-radius: 4.6px;
 }
-
-
