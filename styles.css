@@ -37,6 +37,47 @@ a:hover, a:active {
   color: #d4b44c;
 }
 
+.button:hover, .button:active {
+  background-color: #f3e885;
+  color: #2b283a;
+}
+
+.btn-dark, 
+.btn-mid, 
+.btn-light {
+  padding: 10px 19px;
+  border-radius: 4.6px;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
+}
+
+.btn-dark:hover, 
+.btn-mid:hover, 
+.btn-light:hover,
+.btn-dark:active, 
+.btn-mid:active, 
+.btn-light:active {
+  background-color: #f3e885;
+  color: #2b283a;
+}
+
+.btn-dark {
+  background-color: #5f29a3;
+  color: whitesmoke;
+}
+
+.btn-mid {
+  background-color: #d0aaff;
+  color: #5f29a3;
+}
+
+.btn-light {
+  background-color: whitesmoke;
+  color: #5f29a3;
+}
+
 /* layout*/
 
 header, .second-section {
@@ -45,6 +86,10 @@ header, .second-section {
 
 .second-section {
   color: whitesmoke;
+}
+
+p {
+  line-height: 23px;
 }
 
 .container, .secondcontainer {
@@ -62,7 +107,9 @@ footer {
   color: #5f29a3;
 }
 
-header, section, footer {
+header, 
+section, 
+footer {
   padding: 45px 0px
 }
 
